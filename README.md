@@ -1,2 +1,2 @@
-# leetcode
-Solutions to Leetcode Online Judge https://oj.leetcode.com/problems/
+# Algorithm Solutions
+Solutions to Leetcode Online Judge Algoirthm Problems https://oj.leetcode.com/problems/
