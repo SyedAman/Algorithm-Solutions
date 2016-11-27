@@ -1,11 +1,12 @@
 #include <cstddef>
 
-// Definition for singly-linked list.
+// Definition for singly-linked list node
 struct ListNode
 {
     int data;
     ListNode *next;
     ListNode(int x) : data(x), next(NULL) {}
+    ListNode(int x, ListNode *y) : data(x), next(y) {}
 };
 
 // Solution
