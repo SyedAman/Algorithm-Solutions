@@ -1,5 +1,11 @@
 #include <cstddef>
 
+// Definition for a singly-linked list
+struct LinkedList
+{
+    
+};
+
 // Definition for singly-linked list node
 struct ListNode
 {
