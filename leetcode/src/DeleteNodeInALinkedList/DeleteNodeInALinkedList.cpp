@@ -22,5 +22,11 @@ class Solution
 // Test solution
 int main()
 {
+    ListNode *head;
+    ListNode *traverser;
+
+    head = new ListNode;
+    head->next = 0;
+
     return 0;
 };
