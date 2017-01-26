@@ -23,4 +23,22 @@ function readLine() {
 function main() {
     var time = readLine();
 
+    // split into [ hour, minute, second]
+    var timeArray = time.split(':');
+
+    // store elements into variables
+    var hour = timeArray.splice(0, 1);
+    var minute = timeArray.splice(0, 1);
+    var second = timeArray.splice(0, 1);
+
+    // add 12 hours to hour if PM
+    if (second[0].includes('PM')) {
+        hour = parseInt(hour);
+        hour += 12;
+    }
+
+    // remove the 'AM' or 'PM' from second
+    second[0] = second[0].substr(0, second[0].length-2);
+
+    console.log(hour + ':' + minute + ':' + second[0]);
 }
